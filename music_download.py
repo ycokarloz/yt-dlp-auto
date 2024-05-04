@@ -2,9 +2,9 @@ import subprocess
 import os
 
 def download_audio(url):
-    yt_dlp_path = r"D:\Music\Music\yt-dlp.exe"  # Correct path to yt-dlp.exe
+    yt_dlp_path = r"C:\path\to\yt-dlp.exe"  # Change path to yt-dlp.exe
     output_dir = os.path.dirname(yt_dlp_path)
-    ffmpeg_location = r"D:\Music\Music\ffmpeg-master-latest-win64-gpl\ffmpeg-master-latest-win64-gpl\bin\ffmpeg.exe"
+    ffmpeg_location = r"C:\path\to\ffmpeg.exe" # Change path to ffmpeg.exe
     command = [
         yt_dlp_path,
         "--extract-audio",
