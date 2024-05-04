@@ -18,9 +18,8 @@ This is used for converting .webm to .mp3
 
 https://github.com/yt-dlp/FFmpeg-Builds?tab=readme-ov-file
 
-![image](https://github.com/ycokarloz/yt-dlp-auto/assets/92008086/6062ad65-d418-47f2-b357-c76518fc2a04)
-
 # Usage
+
 ```
-python3 music_download.py
+python.exe music_download.py
 ```
